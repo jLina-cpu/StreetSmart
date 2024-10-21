@@ -3,7 +3,7 @@ const axios = require('axios');
 const turf = require('@turf/turf');
 
 // 1. Get routes from Google Maps API
-const API_KEY = 'AIzaSyBvEAjxAz-90pHpfVch_0fiZvagwf39BhU';
+const API_KEY = 'YOUR API KEY';
 
 async function getRoutes(origin, destination) {
   try {
